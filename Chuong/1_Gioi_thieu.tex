@@ -1,63 +1,22 @@
 \documentclass[../DoAn.tex]{subfiles}
 \begin{document}
 
-Lưu ý: Mẫu ĐATN này được thiết kế phù hợp với đồ án tốt nghiệp theo hướng nghiên cứu. Mẫu đề tài này là gợi ý tham khảo. Tuỳ từng đề tài, cấu trúc có thể thay đổi ít nhiều. Sinh viên cần tham khảo ý kiến của giáo viên hướng dẫn để đưa ra cấu trúc hợp lý nhất cho đề tài của mình. 
-
-Trước khi viết ĐATN, sinh viên cần đọc kỹ hướng dẫn và quy định chi tiết về cách viết ĐATN trong Phụ lục A. 
-
-Khi đóng quyển ĐATN, sinh viên cần lưu ý tuân thủ hướng dẫn ở phụ lục A.9
-
-SV cần đặc biệt lưu ý cách hành văn. Mỗi đoạn văn không được quá dài và cần có ý tứ rõ ràng, bao gồm duy nhất một ý chính và các ý phân tích bổ trợ để làm rõ hơn ý chính. Các câu văn trong đoạn phải đầy đủ chủ ngữ vị ngữ, cùng hướng đến chủ đề chung. Câu sau phải liên kết với câu trước, đoạn sau liên kết với đoạn trước. Trong văn phong khoa học, sinh viên không được dùng từ trong văn nói, không dùng các từ phóng đại, thái quá, các từ thiếu khách quan, thiên về cảm xúc, về quan điểm cá nhân như “tuyệt vời”, “cực hay”, “cực kỳ hữu ích”, v.v. Các câu văn cần được tối ưu hóa, đảm bảo rất khó để thể thêm hoặc bớt đi được dù chỉ một từ. Cách diễn đạt cần ngắn gọn, súc tích, không dài dòng.
-
-Chương 1 có độ dài từ 3 đến 6 trang với các nội dung sau đây
-
-
 \section{Đặt vấn đề}
 \label{sec:dvd}
-Phần này sinh viên mô tả bài toán cần giải quyết, lý do tại sao lại chọn bài toán đó, ý nghĩa/tầm quan trọng của bài toán.
-
-Tiêu đề của chương này có thể để là ``đặt vấn đề'', hoặc lấy chính tên của bài toán mà sinh viên định giải quyết, ví dụ có thể đặt tiêu đề là ``Bài toán dự đoán …” 
-
+Ung thư là nguyên nhân gây tử vong đứng hàng thứ hai trên toàn cầu và ước tính chiếm 9,6 triệu ca tử vong trong năm 2018. Việt Nam có khoảng 165 000 ca ung thư mới và khoảng 115 000 ca tử vong do ung thư mỗi năm. Ung thư không những làm tổn lại sức khỏe của người bệnh mà còn gây hoang mang cho chính bệnh nhân và người thân, gia đình và cộng đồng. Có nhiều nguyên nhân có thể dẫn đến ung thư, nhưng nguyên nhân chủ yếu là do yếu tố di truyền và do các yếu tố môi trường tác động. Yếu tô di truyền có thể xuất phát từ việc thừa hưởng gene đột biến từ bố , mẹ. Yếu tố môi trường dẫn đến ung thư có thể xảy ra do tiếp xúc với các loại hóa chất gây ung thư, virus, các chất phóng xạ ... Việc xét nghiệm gene di truyền cho phép xác định nguyên nhân gây ung thư là do đột biến di truyền hay do yếu tố môi trường. Bác sĩ có thể căn cứ vào kết quả xét nghiêm để đưa ra các liệu pháp điều trị phù hợp, lên kế hoạch theo dõi các bệnh ung thư thứ phát, và ước lượng nguy cơ mắc bệnh ung thư cho người nhà bệnh nhân. Đối với người chưa bị bệnh, nhưng có tiền sử gia đình về bệnh ung thư di truyền, xét nghiệm gene di truyền sẽ rất có ích cho việc lập kế hoạch theo dõi phát hiện sớm, và thực hiện các biện pháp làm giảm nguy cơ. Tuy nhiên, công việc xét nghiệm và giải trình tự gene là một công việc tốn nhiều chi phí về thời gian và công sức. Vì thế nghiên cứu, ứng dụng những công nghệ mới , với mục tiêu giảm chi phí cho việc xét nghiệm, cũng là giảm chi phí cho những bệnh nhân có nhiều ý nghĩa thực tiễn.
 
 \section{Các giải pháp hiện tại và hạn chế}
 \label{sec:giaiphap}
-Sinh viên trước tiên cần trình bày tổng quan các kết quả của các nghiên cứu hiện nay cho bài toán giới thiệu ở phần \ref{sec:dvd}. Sau đấy, sinh viên đưa ra các hạn chế của các giải pháp hiện tại. 
+Trước có, cũng đã có những nghiên cứu nhằm phân loại các văn bản y khoa như \cite{useML}. Nghiên cứu này nhằm mục đích phân loại văn bản y khoa theo hai nhiệm vụ khác nhau là phân loại bài báo có gene nhạy cảm với ung thư và những bài báo chứa gene ít nhạy cảm với ung thư. Nhóm tác giả có sử dụng hai mô hình là SVM và CNN, theo đánh giá cá nhân, thì 2 mô hình này có tốc độ huấn luyện và tốc độ dự đoán tương đối chậm. Nguyên nhân là do độ phức tạp tính toán của SVM tăng khá nhanh theo số lượng điểm dữ liệu và số chiều của dữ liệu. Trong khi đó, các bài toán về ngôn ngữ đều có kích thước của vector đặc trưng là tương đối lớn, nhất là khi tác giả còn sử dụng phương pháp trích chọn đặc trưng là "bag of n gram" (về cơ bản, phương pháp này tạo từ điển cho từng n từ. Việc này còn khiến cho vector đặc trưng còn tăng kích thước lên nhiều lần). Bên cạnh đó mô hình SVM, tác giả còn sửa dụng mô hình CNN với phép tính tích chập (convolution) có kích thước 3x1, mô hình CNN có chi phí tính toán cho quá trình huấn luyện (training) và dự đoán (inference) khá lớn, và thông thường những mô hình convolutional neural network đều cố gắng tận dụng khả năng tính toán song song của GPU để giảm thời gian chạy.  Mặc dù có những nhược điểm kể trên nhưng kết quả mà nhóm tác giả đạt được là rất hứa hẹn khi lượng dữ liệu chỉ khoảng 4000 văn bản được gán nhãn thủ công, độ chính xác (accuracy) cũng đã lên đến 0.8852 . Ngoài ra còn có \cite{GAPscreener} đạt độ chính xác cũng khá cao khi sử dụng mô hình SVM, tuy nhiên tốc độ chưa thật sự ấn tượng. So với những việc mà \cite{useML} đã thực viện thì nhóm tác giả của \cite{GAPscreener} đã tiến hành phân loại văn bản y khoa theo một hướng có vẻ dễ dàng hơn là phân loại các bài báo thành 2 nhóm là có liên quan đến ung thư và không liên quan đến ung thư. Tác giả cũng sử dụng bộ dữ liệu thu thập tự động những khá tin cậy. Bộ dữ liệu này bao gồm 20.000 văn bản toàn văn. Mỗi nhóm gồm 10.000 dữ liệu. Tác giả vẫn sử dụng mô hình quen thuộc là SVM với hạt nhâm (kernel) sử dụng là RBF. Độ chính xác của mô hình đạt khá tốt khi nó lên đến 0.975 .Tốc độ phân loại mà SVM mang lại là 0.02s / 1 văn bản. Độ chính xác của mô hình SVM là khá tốt , tuy nhiên thời gian chạy phân loại thuật toán là chưa tốt. 
 
 \section{Mục tiêu và định hướng giải pháp}
-Trong chương này, sinh viên trước hết trình bày mục tiêu của đồ án là gì, sau đấy sinh viên đề xuất định hướng giải pháp của mình. Tốt nhất là với trình bày từng giải pháp đối với mỗi vấn đề nêu ra trong chương \ref{sec:giaiphap}. 
+Trước những bài toán thực tế nêu trên, trong đồ án này, em đã cố gắng tổng hợp những nghiên cứu trước đó. Ngoài ra để giải quyết vấn đề về phân loại bài toán y khoa, đồng thời tổng hợp những thông tin về mô tả về gene bệnh trong các các bài báo về y khoa đó, em đã đề xuất xây dựng một công cụ gồm 3 thành phần: một là công cụ thu thập dữ liệu về các thông tin liên quan đến bài báo như: PIMD, tiêu đề, tóm tắt, chỉ số DOI, các bài báo trích dẫn, các bài báo tham khảo, các bài báo được Pubmed gợi ý là tương tự. Mỗi thông tin trên đều có vài trò riêng trong việc thu thập văn bản toàn văn về bệnh ung thư. Hai là công cụ sàng lọc, loại bỏ những bài báo không liên quan đến ung thư dựa với cách tiếp cận theo hướng xử lý ngôn ngữ tự nhiên, thuật toán áp dụng là các thuật toán học máy. Ba là đưa ra các biểu thức chính quy để tìm kiếm các mô tả biến thể được đề cập trong các bài báo đã được xác định từ trước là có liên quan đến ung thư.
 
 \section{Đóng góp của đồ án}
-Trong phần này sinh viên liệt kê cụ thể, ngắn gọn các đóng góp của đồ án. Ví dụ: 
+Trong phạm vi đồ án này, em đã xây dựng một công cụ tự động thu thập dữ liệu y tế từ cớ sở pubmed. Công cụ này có thể chạy hoàn toàn tự động do nó có khả năng tìm kiếm nhiều bài báo chỉ từ một bài báo cho trước. Việc này sẽ làm giảm đáng kể sức người khi nó hạn chế được việc phải thu thập rất nhiều PMID để tìm kiếm. Điều này trước đây chưa có ai thực hiện. Thứ hai, em đã xây dựng được một công cụ sàng lọc văn bản dựa trên mô hình Naive Bayes classifier, công cụ này có chỉ số recall trung bình là 0.9821. Thứ 3, áp dụng 47 biểu thức chính quy để tìm kiếm các biến thể đột biến được đề cập trong bài báo. Việc này giúp cho việc tìm kiếm biến thể trở nên cực kỳ nhanh chóng, khi nó có thể tìm thấy hơn 324.000 biến thể chỉ trong thời gian 52 phút trên CPU chỉ chạy 1 luồng duy nhất.
 
-Đồ án này có 3 đóng góp chính như sau:
-
-\begin{enumerate}
-\item Đồ án đề xuất một phương pháp tiền xử lý dữ liệu nhằm loại bỏ nhiễu và dữ liệu ngoại lai trước khi đưa vào huấn luyện mô hình.
-\item \ldots
-\item \ldots 
-\end{enumerate}
 
 \section{Bố cục đồ án}
-Phần còn lại của báo cáo đồ án tốt nghiệp này được tổ chức như sau. 
-
-Chương 2 trình bày về v.v. 
-
-Trong Chương 3, em/tôi giới thiệu về v.v.
-
-Chú ý: Sinh viên cần viết mô tả thành đoạn văn đầy đủ về nội dung chương. Tuyệt đối không viết ý hay gạch đầu dòng. Chương 1 không cần mô tả trong phần này. 
-
-Ví dụ tham khảo mô tả chương trong phần bố cục đồ án tốt nghiệp: Chương *** trình bày đóng góp chính của đồ án, đó là một nền tảng ABC cho phép khai phá và tích hợp nhiều nguồn dữ liệu, trong đó mỗi nguồn dữ liệu lại có định dạng đặc thù riêng. Nền tảng ABC được phát triển dựa trên khái niệm DEF, là các module ngữ nghĩa trợ giúp người dùng tìm kiếm, tích hợp và hiển thị trực quan dữ liệu theo mô hình cộng tác và mô hình phân tán.  
-
-Chú ý: Trong phần nội dung chính, mỗi chương của đồ án nên có phần Tổng quan và Kết chương. Hai phần này đều có định dạng văn bản “Normal”, sinh viên không cần tạo định dạng riêng, ví dụ như không in đậm/in nghiêng, không đóng khung, v.v... 
-
-Trong phần Tổng quan của chương N, sinh viên nên có sự liên kết với chương N-1 rồi trình bày sơ qua lý do có mặt của chương N và sự cần thiết của chương này trong đồ án. Sau đó giới thiệu những vấn đề sẽ trình bày trong chương này là gì, trong các đề mục lớn nào.
-
-Ví dụ về phần Tổng quan: Chương 3 đã thảo luận về nguồn gốc ra đời, cơ sở lý thuyết và các nhiệm vụ chính của bài toán tích hợp dữ liệu. Chương 4 này sẽ trình bày chi tiết các công cụ tích hợp dữ liệu theo hướng tiếp cận “mashup”. Với mục đích và phạm vi của đề tài, sáu nhóm công cụ tích hợp dữ liệu chính được trình bày bao gồm: (i) nhóm công cụ ABC trong phần 4.1, (ii) nhóm công cụ DEF trong phần 4.2, nhóm công cụ GHK trong phần 4.3, v.v...
-
-Trong phần Kết chương, sinh viên đưa ra một số kết luận quan trọng của chương. Những vấn đề mở ra trong Tổng quan cần được tóm tắt lại nội dung và cách giải quyết/thực hiện như thế nào. Sinh viên lưu ý không viết Kết chương giống hệt Tổng quan. Sau khi đọc phần Kết chương, người đọc sẽ nắm được sơ bộ nội dung và giải pháp cho các vấn đề đã trình bày trong chương. Trong Kết chương, Sinh viên nên có thêm câu liên kết tới chương tiếp theo.
-
-Ví dụ về phần Kết chương: Chương này đã phân tích chi tiết sáu nhóm công cụ tích hợp dữ liệu. Nhóm công cụ ABC và DEF thích hợp với những bài toán tích hợp dữ liệu phạm vi nhỏ. Trong khi đó, nhóm công cụ GHK lại chứng tỏ thế mạnh của mình với những bài toán cần độ chính xác cao, v.v. Từ kết quả nghiên cứu và phân tích về sáu nhóm công cụ tích hợp dữ liệu này, tôi đã thực hiện phát triển phần mềm tự động bóc tách và tích hợp dữ liệu sử dụng nhóm công cụ GHK. Phần này được trình bày trong chương tiếp theo – Chương 5.
-
-
+Đồ án được chia thành 4 chương Trong đó chương 2 trình bày về đánh giá sơ bộ 2 bài báo có liên quan và trình bày cơ sở lý thuyết của những thuật toán học máy như các phương pháp trích chọn đặc trưng, cách đánh giá mô hình phân loại, và một số thuật toán học máy điển hình đã được áp dụng để triển khai bài toán. Chương 3 em đưa ra đề xuất để giải quyết bài toán này, bao gồm cách thu thập dữ liệu từ 3 cơ sở dữ liệu khác nhau là HGMD, Pubmed và Pubmed Central, cũng như huấn luyện mô hình học máy cho bài toán phân loại văn bản y khoa, triển khai các biểu thức chính quy để tìm kiếm biến thể. Chương 4 em trình bày về những kết quả thực tế khi triển khai bài toán, và đánh giá kết quả đã đạt được.  Và phần cuối cùng là phần 5. Phần này em đã tổng kết lại những kết quả đã đạt được khi thực hiện đồ án. Tuy nhiên đồ án này vẫn chưa hoàn thiện, em cũng đã chỉ ra những thiếu sót của bản thân và hướng phát triển để có thể đưa ứng dụng này vào triển khai trong thực tế.
 
 \end{document}

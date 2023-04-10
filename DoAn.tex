@@ -180,9 +180,9 @@
 \subfile{Chuong/0_3_Tom_tat_noi_dung.tex}
 
 % \pagestyle{empty} % Header và footer rỗng
-\newpage
-\pagenumbering{gobble} % Xóa page numbering ở cuối trang
-\subfile{Chuong/0_4_Tom_tat_noi_dung_eng.tex}
+%\newpage
+%\pagenumbering{gobble} % Xóa page numbering ở cuối trang
+%\subfile{Chuong/0_4_Tom_tat_noi_dung_eng.tex}
 
 % ===================================================
 % \pagestyle{empty} % Header và footer rỗng
@@ -238,12 +238,12 @@
 \renewcommand*{\acronymname}{DANH MỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT}
 \renewcommand*{\entryname}{Thuật ngữ}
 \renewcommand*{\descriptionname}{Ý nghĩa}
-\printnoidxglossaries
+% \printnoidxglossaries
 % \phantomsection\addcontentsline{toc}{section}{\numberline {} DANH MỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT}
 
-\renewcommand\appendixname{PHỤ LỤC}
-\renewcommand\appendixpagename{PHỤ LỤC}
-\renewcommand\appendixtocname{PHỤ LỤC}
+% \renewcommand\appendixname{PHỤ LỤC}
+% \renewcommand\appendixpagename{PHỤ LỤC}
+% \renewcommand\appendixtocname{PHỤ LỤC}
 
 
 
@@ -259,24 +259,24 @@
 %\fancyhead[LE]{\rightmark}
 \fancyfoot[RE, LO]{\thepage}
 
-\chapter{GIỚI THIỆU ĐỀ TÀI}
+\chapter{BÀI TOÁN NGHIÊN CỨU, PHÁT HIỆN VÀ CÁC BÀI BÁO VỀ UNG THƯ VÀ XÁC ĐỊNH CÁC ĐỘT BIẾN GENE TƯƠNG ỨNG}
 \subfile{Chuong/1_Gioi_thieu} % Phần mở đầu
 
 \newpage
 %\pagestyle{fancy} % Áp dụng header và footer
-\chapter{NỀN TẢNG LÝ THUYẾT}
+\chapter{CƠ SỞ LÝ THUYẾT CỦA BÀI TOÀN PHÂN LOẠI VĂN BẢN}
 \subfile{Chuong/2_Co_so_ly_thuyet}
 
 
 \newpage
 %\pagestyle{fancy} % Áp dụng header và footer
-\chapter{PHƯƠNG PHÁP ĐỀ XUẤT}
+\chapter{ĐỀ XUẤT PHƯƠNG SỬ DỤNG THUẬT TOÁN HỌC MÁY VÀ BIỂU THỨC CHÍNH QUY}
 \subfile{Chuong/3_De_xuat}
 
-\newpage
+%\newpage
 %\pagestyle{fancy} % Áp dụng header và footer
-\chapter{PHÂN TÍCH LÝ THUYẾT}
-\subfile{Chuong/4_Phan_tich_ly_thuyet}
+%\chapter{PHÂN TÍCH LÝ THUYẾT}
+%\subfile{Chuong/4_Phan_tich_ly_thuyet}
 
 \newpage
 %\pagestyle{fancy} % Áp dụng header và footer
@@ -285,21 +285,22 @@
 
 \newpage
 \chapter{KẾT LUẬN}
+\title{KẾT LUẬN}
 \subfile{Chuong/6_Ket_luan}
 
 \newpage
-%\pagestyle{fancy} % Áp dụng header và footer
-\chapter*{MỘT SỐ LƯU Ý VỀ TÀI LIỆU THAM KHẢO} %Kết luận và hướng phát triển}
+\pagestyle{fancy} % Áp dụng header và footer
+\chapter*{TÀI LIỆU THAM KHẢO} %Kết luận và hướng phát triển}
 \label{chapter:reference}
 \subfile{Chuong/7_Tai_lieu_tham_khao}
 
 % ===================================================
 \newpage
-\renewcommand\bibname{TÀI LIỆU THAM KHẢO}
-\printbibliography
-\phantomsection\addcontentsline{toc}{chapter}{TÀI LIỆU THAM KHẢO}
+% \renewcommand\bibname{TÀI LIỆU THAM KHẢO}
+% \printbibliography
+% \phantomsection\addcontentsline{toc}{chapter}{TÀI LIỆU THAM KHẢO}
 
-\appendixpage
+% \appendixpage
 \appendix
 \addappheadtotoc
 
@@ -313,11 +314,11 @@
     {}         % unnumbered format
     {\titlerule*[0.3pc]{.}\contentspage} 
     
-\chapter{HƯỚNG DẪN VIẾT ĐATN}
-\subfile{Chuong/Phu_luc_A}
+% \chapter{Danh sách biểu thức chính quy}
+% \subfile{Chuong/Phu_luc_A}
 
-\newpage
-\chapter{ĐẶC TẢ USE CASE}
-\subfile{Chuong/Phu_luc_B}
+% \newpage
+% \chapter{ĐẶC TẢ USE CASE}
+% \subfile{Chuong/Phu_luc_B}
 
 \end{document}
